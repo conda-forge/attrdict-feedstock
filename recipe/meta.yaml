@@ -1,6 +1,6 @@
 {% set name = "attrdict" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "86aeb6d3809e0344409f8148d7cac9eabce5f0b577c160b5e90d10df3f8d2ad3" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "35c90698b55c683946091177177a9e9c0713a0860f0e049febd72649ccd77b70" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
