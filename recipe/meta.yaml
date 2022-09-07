@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/bcj/AttrDict/
   license: MIT
+  license_file: LICENSE.txt
   summary: A dict with attribute-style access
 
 extra:
