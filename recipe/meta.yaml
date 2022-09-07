@@ -13,17 +13,17 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6,<3.10
     - setuptools
 
   run:
-    - python
+    - python >=3.6,<3.10
     - six
 
 test:
@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/bcj/AttrDict/
   license: MIT
+  license_file: LICENSE.txt
   summary: A dict with attribute-style access
 
 extra:
